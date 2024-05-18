@@ -1,5 +1,6 @@
-# ext_lsst
-LSST for EUCLID
+# ext_rub
+
+processing image telescope
 
 # Initialisation package
 
