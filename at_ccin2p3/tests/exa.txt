@@ -1,0 +1,61 @@
+#======================================================
+#  File parameters example for create_arrayjob_lsst.py
+#======================================================
+
+[DEFAULT]
+# full path to access to file raw images
+# Mandatory, example value : /path/to/file
+path_images =  TBD
+
+# full path to access to file stars catalog ref
+# Mandatory, example value : /path/to/file
+path_star_cat =  TBD
+
+# file content name of all raw image to process
+# Mandatory, example value : raw_image_list.txt
+file_list_images =  TBD
+
+# file content name of all stars ref catalog for each visit
+# Mandatory, example value : list_cta.txt
+file_list_star_cat =  TBD
+
+# full path of root directory contents butler directory for each visit
+# Mandatory, example value : /path/to/run/directory
+root_butlers =  TBD
+
+# full path of EXT_LSST_Testing git package used to process data
+# Mandatory, example value : /path/to/run/src
+root_script =  TBD
+
+# value set in PipelineRun XML element, start by _
+# Mandatory, example value : _RUN_SC8_2
+pipeline_run =  TBD
+
+# value set in DataSetRelease XML element
+# Optional, default value is TBD
+# data_set_release = SC8_SWF1
+
+# Parameters to select image a region of sky: <ra,dec,radius> in degree 
+# Optional, default value is NA
+# filter_pos = 227.8,76.4,2.0
+
+# Skip LSST stack processing. Type: [true, false]
+# Optional, default value is false
+# skip_proc = false
+
+# User name for the EAS account. Type: string
+# Mandatory, example value : colley
+user_eas =  TBD
+
+# Full path with name of file contents password EAS. Type : string path
+# Mandatory, example value : /home/colley/eas_pwd.txt
+file_pwd_eas =  TBD
+
+# Name of Euclid data base. Type : [TEST,EUCLID]
+# Optional, default value is TEST
+# eas_project = TEST
+
+# During ingest EAS step, I can use FITS already in EAS with true. Type : [true, false]
+# Optional, default value is false
+# use_old_files = true
+

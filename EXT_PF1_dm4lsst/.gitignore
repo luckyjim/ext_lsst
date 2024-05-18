@@ -1,0 +1,9 @@
+*.pyc
+.*
+build*/*
+InstallArea
+extSim/tests/data/*
+Validation/test/data/*
+!.gitignore
+
+/tmp.txt
